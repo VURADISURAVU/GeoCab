@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GeoCab.WEB", "GeoCab.WEB\GeoCab.WEB.csproj", "{A745D94C-A50B-42DD-A766-4CC79C563E53}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GeoCab.DAL", "GeoCab.DAL\GeoCab.DAL.csproj", "{368A6A5D-AEC2-415E-9A2D-12749BFB5D88}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GeoCab.BLL", "GeoCab.BLL\GeoCab.BLL.csproj", "{243D6271-D25E-42AD-A2A8-1F86C45C7643}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A745D94C-A50B-42DD-A766-4CC79C563E53}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A745D94C-A50B-42DD-A766-4CC79C563E53}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A745D94C-A50B-42DD-A766-4CC79C563E53}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A745D94C-A50B-42DD-A766-4CC79C563E53}.Release|Any CPU.Build.0 = Release|Any CPU
+		{368A6A5D-AEC2-415E-9A2D-12749BFB5D88}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{368A6A5D-AEC2-415E-9A2D-12749BFB5D88}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{368A6A5D-AEC2-415E-9A2D-12749BFB5D88}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{368A6A5D-AEC2-415E-9A2D-12749BFB5D88}.Release|Any CPU.Build.0 = Release|Any CPU
+		{243D6271-D25E-42AD-A2A8-1F86C45C7643}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{243D6271-D25E-42AD-A2A8-1F86C45C7643}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{243D6271-D25E-42AD-A2A8-1F86C45C7643}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{243D6271-D25E-42AD-A2A8-1F86C45C7643}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
