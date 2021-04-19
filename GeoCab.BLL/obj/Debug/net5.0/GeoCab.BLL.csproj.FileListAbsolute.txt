@@ -1,0 +1,16 @@
+C:\Users\Rankhu\Desktop\Projects\GeoCabNLayer\GeoCab.BLL\bin\Debug\net5.0\GeoCab.BLL.deps.json
+C:\Users\Rankhu\Desktop\Projects\GeoCabNLayer\GeoCab.BLL\bin\Debug\net5.0\GeoCab.BLL.dll
+C:\Users\Rankhu\Desktop\Projects\GeoCabNLayer\GeoCab.BLL\bin\Debug\net5.0\ref\GeoCab.BLL.dll
+C:\Users\Rankhu\Desktop\Projects\GeoCabNLayer\GeoCab.BLL\bin\Debug\net5.0\GeoCab.BLL.pdb
+C:\Users\Rankhu\Desktop\Projects\GeoCabNLayer\GeoCab.BLL\bin\Debug\net5.0\GeoCab.DAL.dll
+C:\Users\Rankhu\Desktop\Projects\GeoCabNLayer\GeoCab.BLL\bin\Debug\net5.0\GeoCab.DAL.pdb
+C:\Users\Rankhu\Desktop\Projects\GeoCabNLayer\GeoCab.BLL\obj\Debug\net5.0\GeoCab.BLL.csprojAssemblyReference.cache
+C:\Users\Rankhu\Desktop\Projects\GeoCabNLayer\GeoCab.BLL\obj\Debug\net5.0\GeoCab.BLL.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Rankhu\Desktop\Projects\GeoCabNLayer\GeoCab.BLL\obj\Debug\net5.0\GeoCab.BLL.AssemblyInfoInputs.cache
+C:\Users\Rankhu\Desktop\Projects\GeoCabNLayer\GeoCab.BLL\obj\Debug\net5.0\GeoCab.BLL.AssemblyInfo.cs
+C:\Users\Rankhu\Desktop\Projects\GeoCabNLayer\GeoCab.BLL\obj\Debug\net5.0\GeoCab.BLL.csproj.CoreCompileInputs.cache
+C:\Users\Rankhu\Desktop\Projects\GeoCabNLayer\GeoCab.BLL\obj\Debug\net5.0\GeoCab.BLL.csproj.CopyComplete
+C:\Users\Rankhu\Desktop\Projects\GeoCabNLayer\GeoCab.BLL\obj\Debug\net5.0\GeoCab.BLL.dll
+C:\Users\Rankhu\Desktop\Projects\GeoCabNLayer\GeoCab.BLL\obj\Debug\net5.0\ref\GeoCab.BLL.dll
+C:\Users\Rankhu\Desktop\Projects\GeoCabNLayer\GeoCab.BLL\obj\Debug\net5.0\GeoCab.BLL.pdb
+C:\Users\Rankhu\Desktop\Projects\GeoCabNLayer\GeoCab.BLL\bin\Debug\net5.0\appsettings.json

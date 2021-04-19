@@ -1,0 +1,9 @@
+﻿@model List<GeoCab.DAL.Entities.User>
+
+<div>
+    @foreach (var user in Model)
+    {
+        <p>@user.Username</p>
+        <p>@user.Email</p>
+    }
+</div>

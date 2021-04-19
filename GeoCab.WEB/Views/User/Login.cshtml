@@ -1,0 +1,16 @@
+﻿@model GeoCab.WEB.ViewModels.LoginViewModel
+
+<div class="container">
+    <h1>Вход</h1>
+    <form action="/user/login" method="post" class="w-50 justify-content-center">
+        <div class="mb-3">
+            <label for="Username" class="form-label">Username</label>
+            <input type="text" asp-for="Username" class="form-control" id="Username" aria-describedby="emailHelp">
+        </div>
+        <div class="mb-3">
+            <label for="Password" class="form-label">Password</label>
+            <input type="password" asp-for="Password" class="form-control" id="Password" aria-describedby="emailHelp">
+        </div>
+        <input class="btn btn-primary" type="submit" value="Login"/>
+    </form>
+</div>
