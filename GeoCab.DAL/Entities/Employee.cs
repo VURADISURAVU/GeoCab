@@ -1,4 +1,5 @@
-﻿using System.ComponentModel.DataAnnotations.Schema;
+﻿using System.Collections.Generic;
+using System.ComponentModel.DataAnnotations.Schema;
 
 namespace GeoCab.DAL.Entities
 {
@@ -11,5 +12,12 @@ namespace GeoCab.DAL.Entities
 		[ForeignKey("User")]
 		public long UserId { get; set; }
 		public virtual User User { get; set; }
+		
+		[ForeignKey("Tool")]
+		public long ToolId { get; set; }
+		public virtual Tool Tool { get; set; }
+		
+		public virtual List<Work> Work { get; set; }
+		public virtual List<FinishedWork> FinishedWork { get; set; }
 	}
 }

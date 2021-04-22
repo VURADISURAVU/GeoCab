@@ -36,6 +36,11 @@ namespace GeoCab.WEB
 			services.AddDbContext<GeoCabDbContext>(option => option.UseSqlServer(Connection));
 			services.AddScoped(x => new UserRepository(x.GetService<GeoCabDbContext>()));
 			services.AddScoped(x => new EmployeeRepository(x.GetService<GeoCabDbContext>()));
+			services.AddScoped(x => new WorkRepository(x.GetService<GeoCabDbContext>()));
+
+			services.AddScoped<IWorkService, WorkService>(x => new WorkService(
+				x.GetService<WorkRepository>())
+			);
 			services.AddScoped<IUserService, UserService>(x => new UserService(
 				x.GetService<UserRepository>())
 			);

@@ -12,7 +12,8 @@ namespace GeoCab.DAL.Entities
 		[Required]
 		public string Password { get; set; }
 		
-		public virtual List<Work> Works { get; set; }
+		
+		public virtual List<Work> Work { get; set; }
 		public virtual Admin Admin { get; set; }
 		public virtual Employee Employee { get; set; }
 	}

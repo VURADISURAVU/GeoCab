@@ -8,6 +8,5 @@ namespace GeoCab.DAL.Repositories
 		public WorkRepository(GeoCabDbContext geoCabDbContext) : base(geoCabDbContext)
 		{
 		}
-		
 	}
 }

@@ -1,0 +1,10 @@
+﻿@model List<GeoCab.DAL.Entities.Work>
+
+<div class="container">
+    @foreach (var work in Model)
+    {
+        <h5>@work.Title</h5>
+        <p>@work.Description</p>
+        <p>@work.Cost</p>   
+    }
+</div>

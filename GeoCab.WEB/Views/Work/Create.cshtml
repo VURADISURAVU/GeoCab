@@ -1,0 +1,19 @@
+﻿@model GeoCab.WEB.ViewModels.CreateWorkViewModel 
+
+<div class="container">
+    <form action="/Work/Create" method="post">
+        <div class="mb-3">
+            <label for="Title" class="form-label">Цель работы</label>
+            <input type="text" asp-for="Title" class="form-control" id="Title">
+        </div>
+        <div class="mb-3">
+            <label for="Description" class="form-label">Описание работы</label>
+            <input type="text" asp-for="Description" class="form-control" id="Description">
+        </div>
+        <div class="mb-3">
+            <label for="Cost" class="form-label">Цена за работу</label>
+            <input type="number" asp-for="Cost" class="form-control" id="Cost">
+        </div>
+        <input type="submit" class="btn btn-primary" value="Выставить"/>
+    </form>
+</div>

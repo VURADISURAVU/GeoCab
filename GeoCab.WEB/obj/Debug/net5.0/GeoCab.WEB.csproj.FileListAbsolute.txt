@@ -101,3 +101,5 @@ C:\Users\Rankhu\Desktop\Projects\GeoCabNLayer\GeoCab.WEB\bin\Debug\net5.0\Micros
 C:\Users\Rankhu\Desktop\Projects\GeoCabNLayer\GeoCab.WEB\bin\Debug\net5.0\Castle.Core.dll
 C:\Users\Rankhu\Desktop\Projects\GeoCabNLayer\GeoCab.WEB\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.Proxies.dll
 C:\Users\Rankhu\Desktop\Projects\GeoCabNLayer\GeoCab.WEB\obj\Debug\net5.0\Razor\Views\User\Users.cshtml.g.cs
+C:\Users\Rankhu\Desktop\Projects\GeoCabNLayer\GeoCab.WEB\obj\Debug\net5.0\Razor\Views\Work\Create.cshtml.g.cs
+C:\Users\Rankhu\Desktop\Projects\GeoCabNLayer\GeoCab.WEB\obj\Debug\net5.0\Razor\Views\Work\Index.cshtml.g.cs

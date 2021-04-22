@@ -16,6 +16,14 @@ namespace GeoCab.DAL.Repositories
 			_dbContext = dbContext;
 			_dbSet = _dbContext.Set<T>();
 		}
+		
+		public T Save(T model)
+		{
+			_dbSet.Add(model);
+			_dbContext.SaveChanges();
+
+			return model;
+		}
 
 		public T GetById(int id)
 		{
@@ -25,14 +33,6 @@ namespace GeoCab.DAL.Repositories
 		public List<T> GetAll()
 		{
 			return _dbSet.ToList();
-		}
-
-		public T Save(T model)
-		{
-			_dbSet.Add(model);
-			_dbContext.SaveChanges();
-
-			return model;
 		}
 
 		public void Remove(T model)

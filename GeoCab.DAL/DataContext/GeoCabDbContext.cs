@@ -28,6 +28,7 @@ namespace GeoCab.DAL.DataContext
 		public DbSet<Tool> Tools { get; set; }
 		public DbSet<Work> Works { get; set; }
 		public DbSet<Admin> Admins { get; set; }
+		public DbSet<Employee> Employees { get; set; }
 
 		protected override void OnModelCreating(ModelBuilder modelBuilder)
 		{
@@ -38,6 +39,11 @@ namespace GeoCab.DAL.DataContext
 			modelBuilder.Entity<Admin>()
 				.HasOne(a => a.User)
 				.WithOne(a => a.Admin);
+		
+			modelBuilder.Entity<Work>()
+				.HasOne(w => w.User)
+				.WithMany(w => w.Work)
+				.OnDelete(DeleteBehavior.NoAction);
 		}
 
 		protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)

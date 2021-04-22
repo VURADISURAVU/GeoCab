@@ -8,16 +8,16 @@
     <h1>Регистрация</h1>
     <form action="/user/create" method="post" class="w-50">
         <div class="mb-3">
-            <label for="Email" class="form-label">Email address</label>
+            <label for="Email" class="form-label">E-mail</label>
             <input type="email" asp-for="Email" class="form-control" id="Email" aria-describedby="emailHelp">
             <div id="emailHelp" class="form-text">Мы не делимся вашими данными E-mail</div>
         </div>
         <div class="mb-3">
-            <label for="Username" class="form-label">Username</label>
+            <label for="Username" class="form-label">Ник пользователя</label>
             <input type="text" asp-for="Username" class="form-control" id="Username" aria-describedby="emailHelp">
         </div>
         <div class="mb-3">
-            <label for="Password" class="form-label">Password</label>
+            <label for="Password" class="form-label">Пароль</label>
             <input type="password" asp-for="Password" class="form-control" id="Password" aria-describedby="emailHelp">
             <div id="passwordHelpBlock" class="form-text">
                 Пароль должен иметь длину минимум 8 символов, содержать хотя бы одну заглавную букву, специальный символ и цифру
